@@ -24,7 +24,6 @@ Here are some visual examples of the graphical effects produced by MasonKnockout
    ![Chaotic Patterns](https://i.ibb.co/BHdbRjwL/image.png)
 
 ---
----
 
 ## **Project Overview** 🌐
 **MasonKnockout** is an advanced and stealthy cyber tool designed to demonstrate various techniques related to system manipulation, graphical effects, and audio generation. It is a proof-of-concept project that showcases how certain system-level operations can be performed programmatically. The project is written in C# and utilizes Windows API calls to achieve its effects.
