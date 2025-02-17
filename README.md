@@ -1,42 +1,63 @@
 # MasonKnockout
 
-## **Disclaimer**
+## **Disclaimer** ⚠️
 **This project is strictly for educational and research purposes only. Any misuse of this software may lead to serious legal consequences. The developers and contributors of this project are not responsible for any damage, harm, or illegal activities caused by the use of this software. Use it responsibly and at your own risk.**
 
 ---
 
-## **Project Overview**
+## **GDI Effects Showcase** 🖼️
+Here are some visual examples of the graphical effects produced by MasonKnockout:
+
+1. **Screen Distortion** 🌪️  
+   ![Screen Distortion](https://i.ibb.co/TDvXVryz/image.png)
+
+2. **Color Inversion** 🔄  
+   ![Color Inversion](https://i.ibb.co/0zggn5W/image.png)
+
+3. **Random Scribbles** 🖍️  
+   ![Random Scribbles](https://i.ibb.co/rGV2RRxW/image.png)
+
+4. **Screen Melting** 🫠  
+   ![Screen Melting](https://i.ibb.co/DHvpzm2c/image.png)
+
+5. **Chaotic Patterns** 🌀  
+   ![Chaotic Patterns](https://i.ibb.co/BHdbRjwL/image.png)
+
+---
+---
+
+## **Project Overview** 🌐
 **MasonKnockout** is an advanced and stealthy cyber tool designed to demonstrate various techniques related to system manipulation, graphical effects, and audio generation. It is a proof-of-concept project that showcases how certain system-level operations can be performed programmatically. The project is written in C# and utilizes Windows API calls to achieve its effects.
 
 ---
 
-## **Key Features**
-1. **Graphical Effects**:
+## **Key Features** 🔑
+1. **Graphical Effects** 🎨:
    - Manipulates the screen with various graphical glitches, distortions, and animations.
    - Uses Windows GDI (Graphics Device Interface) to create real-time visual effects.
    - Includes effects like screen melting, color inversion, random scribbles, and more.
 
-2. **Audio Generation**:
+2. **Audio Generation** 🔊:
    - Generates audio using mathematical formulas (ByteBeat) and plays it in a loop.
    - Creates unique sound patterns by manipulating raw audio data.
 
-3. **System Manipulation**:
+3. **System Manipulation** 💻:
    - Overwrites the Master Boot Record (MBR) with random data, rendering the system unbootable.
    - Deletes registry keys, potentially causing system instability.
 
-4. **Multi-threaded Execution**:
+4. **Multi-threaded Execution** 🧵:
    - Runs multiple threads simultaneously to create a chaotic and unpredictable environment.
    - Each thread performs a different set of operations, ensuring a wide range of effects.
 
-5. **Stealthy Execution**:
+5. **Stealthy Execution** 🕵️:
    - Utilizes low-level Windows API calls to avoid detection by standard monitoring tools.
    - Operates in the background with minimal user interaction.
 
 ---
 
-## **Code Explanation**
+## **Code Explanation** 📜
 
-### **1. Random Number Generator**
+### **1. Random Number Generator** 🎲
 The `RandomGenerator` function generates pseudo-random numbers using bitwise operations. It is used to create unpredictable patterns for graphical and audio effects.
 
 ```csharp
@@ -54,10 +75,10 @@ private static int RandomGenerator()
 
 ---
 
-### **2. Graphical Effects**
+### **2. Graphical Effects** 🎨
 The project includes several graphical effects, each implemented in a separate method. These effects manipulate the screen using Windows GDI functions like `BitBlt`, `StretchBlt`, and `TransparentBlt`.
 
-#### **Example: MasonFarewell**
+#### **Example: MasonFarewell** 👋
 This method displays a message ("STICK YOUR COMPUTER IN THE TRASH") in random locations on the screen while applying various graphical distortions.
 
 ```csharp
@@ -114,7 +135,7 @@ This method displays a message ("STICK YOUR COMPUTER IN THE TRASH") in random lo
 
 ---
 
-### **3. Audio Generation**
+### **3. Audio Generation** 🔊
 The `MasonByteBeat` method generates audio using mathematical formulas. It creates a buffer of raw audio data and plays it in a loop using the `SoundPlayer` class.
 
 ```csharp
@@ -130,7 +151,7 @@ public static void MasonByteBeat()
 
 ---
 
-### **4. System Manipulation**
+### **4. System Manipulation** 💻
 The `MasonMBR` method overwrites the Master Boot Record (MBR) with random data, rendering the system unbootable. This is a destructive operation and should only be used in controlled environments.
 
 ```csharp
@@ -148,7 +169,7 @@ private static void MasonMBR()
 
 ---
 
-### **5. Multi-threaded Execution**
+### **5. Multi-threaded Execution** 🧵
 The `MasonGDI` method runs multiple threads simultaneously, each performing a different graphical effect. This creates a chaotic and unpredictable environment.
 
 ```csharp
@@ -212,7 +233,7 @@ The `MasonGDI` method runs multiple threads simultaneously, each performing a di
 
 ---
 
-## **How to Use**
+## **How to Use** 🛠️
 1. **Compile the Code**:
    - Use a C# compiler (e.g., Visual Studio) to compile the project.
    - Ensure that the project targets the .NET Framework.
@@ -226,17 +247,17 @@ The `MasonGDI` method runs multiple threads simultaneously, each performing a di
 
 ---
 
-## **Warnings**
+## **Warnings** ⚠️
 - **Destructive Operations**: This software includes destructive operations like overwriting the MBR and deleting registry keys. These operations can render a system unbootable or unstable.
 - **Legal Consequences**: Misuse of this software may lead to legal consequences. Always use it in a controlled and authorized environment.
 - **No Warranty**: This software is provided "as-is" without any warranties. The developers are not responsible for any damage caused by its use.
 
 ---
 
-## **Conclusion**
+## **Conclusion** 🎯
 **MasonKnockout** is a powerful demonstration of system-level programming and graphical manipulation. It serves as an educational tool to understand the potential risks and capabilities of low-level system access. Always use this software responsibly and in compliance with applicable laws and regulations.
 
 ---
 
-**Developed By: ABOLHB - FREEMASONRY**  
-**License: Educational Use Only**
+**Developed By: ABOLHB**  
+**Group: FREEMASONRY** 📚
