@@ -258,5 +258,5 @@ The `MasonGDI` method runs multiple threads simultaneously, each performing a di
 
 ---
 
-**Developed By: ABOLHB**  
-**Group: FREEMASONRY** 📚
+Developed By: **ABOLHB**  
+Group: **FREEMASONRY** 📚
